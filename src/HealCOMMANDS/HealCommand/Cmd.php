@@ -34,4 +34,3 @@ $sender->sendMessage(Color::Red ."[MaxHealth] §4That player is not online");
           $this->getLogger()->info("MaxHealth has been disabled");
      }
 }
-
