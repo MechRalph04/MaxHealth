@@ -2,7 +2,7 @@ name: MaxHealth
 author: Ralph
 description: It will heal you by using /max
 version: Beta-0.0.3
-main: HealCOMMANDS/HealCommand/Cmd
+main: HealCOMMANDS\HealCommand\Cmd
 api: [3.0.0-ALPHA3]
 
 permissions:
