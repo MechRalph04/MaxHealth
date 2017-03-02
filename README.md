@@ -1,9 +1,22 @@
 # MaxHealth
 
-A PocketMine-MP plugin (unfinished) for API 3.0.0-ALPHA3
+Plugin is finished! Download my plugin now!
 
-==============Beta==============
+# How to Use
 
-https://github.com/MechRalph04/MaxHealth-Original-/tree/Beta
+Usage: /max
+Or do /max <Player Name>
 
-(Unfinished) please help me making this plugin
+# Installation
+
+1st, you're gonna be needing, DevTools for API 3.0.0-ALPHA4, now I have ready a link for you of DevTools.
+
+Link: http://www.mediafire.com/file/j1qhvx0ecj7vmf3/phar_DevTools_KhIhe7Xl2rRvP7n.phar
+
+2nd, use the plugin
+
+3rd download my plugin and extract the plugin on plugins
+
+4th start your server and type makeplugin MaxHealth
+
+or do it in-game /makeplugin MaxHealth
