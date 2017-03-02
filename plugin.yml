@@ -1,0 +1,15 @@
+name: MaxHealth
+author: Ralph
+description: It will heal you by using /max
+version: 1.0.3
+main: HealCOMMANDS\HealCommand\Cmd
+api: [3.0.0-ALPHA4]
+
+permissions:
+  heal.cmd.max:
+    default: op
+    description: "Heal your self by /max (BEWARE!)"
+  heal.cmd.max.other:
+    default: op
+    
+    
