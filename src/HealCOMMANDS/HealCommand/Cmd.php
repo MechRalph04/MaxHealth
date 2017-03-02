@@ -25,6 +25,16 @@ class Cmd extends PluginBase{
                           $player->sendMessage(Color::YELLOW ."[MaxHealth] §9You have been healed by". $sender->getName());
                        }else{
 $sender->sendMessage(Color::Red ."[MaxHealth] §4That player is not online");
+     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
+        switch($command->getName()){
+        case "about"
+            $sender->sendMessage("MaxHealth plugin was made by PianoRalph04. Thanks for DanielYTK and this thread https://forums.pmmp.io/threads/plugin-command.265/"
+            return true;
+     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
+        switch($command->getName()){
+        case "help?"
+            $sender->sendMessage("/max to heal /max <Player Name> to heal other players /max about for informations about this plugin"
+            return true;
                      }
                     }
                }
