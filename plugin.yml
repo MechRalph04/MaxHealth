@@ -9,6 +9,9 @@ commands:
   max:
     description: Heals you. Hope you heal and get very well
     usage: "/max"
+  mhabout
+    description: Shows all who helped and maid the plugin
+    usage: "/mhabout"
 
 permissions:
   heal.cmd.max:
@@ -16,5 +19,7 @@ permissions:
     description: "Heal your self by /max (BEWARE!)"
   heal.cmd.max.other:
     default: op
+  heal.cmd.about
+    default: true
     
     
