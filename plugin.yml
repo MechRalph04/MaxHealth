@@ -5,6 +5,11 @@ version: 1.0.3
 main: HealCOMMANDS\HealCommand\Cmd
 api: [3.0.0-ALPHA4]
 
+commands:
+  max:
+    description: Heals you. Hope you heal and get very well
+    usage: "/max"
+
 permissions:
   heal.cmd.max:
     default: op
