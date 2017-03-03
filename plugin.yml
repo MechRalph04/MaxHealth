@@ -16,7 +16,5 @@ permissions:
     description: "Heal your self by /max (BEWARE!)"
   heal.cmd.max.other:
     default: op
-  heal.cmd.about
-    default: true
     
     
