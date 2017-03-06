@@ -23,4 +23,4 @@ or do it in-game /makeplugin MaxHealth
 
 # Pages
 
-[Facebool](www.facebook.com/MCPENation20C) 
+[Facebook](www.facebook.com/MCPE20C) 
