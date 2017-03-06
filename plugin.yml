@@ -6,9 +6,9 @@ main: HealCOMMANDS\HealCommand\Cmd
 api: [3.0.0-ALPHA4]
 
 commands:
-  max:
+  mht:
     description: Heals you. Hope you heal and get very well
-    usage: "/max"
+    usage: "Only OP's can use this and in-game Main Usage: /max [in-game only] /max <Player Name>"
 
 permissions:
   heal.cmd.max:
