@@ -21,7 +21,7 @@ class Cmd extends PluginBase{
                       $player = $this->getServer()->getPlayer($args[0]);
                       if($player !== null){
                           $player->setHealth($sender->getMaxHealth());
-                          $sender->sendMessage("§a$args[0] §bHas been healed!");
+                          $sender->sendMessage("$args[0] §bHas been healed!");
                           $player->sendMessage(Color::YELLOW ."§bYou have been healed by§a". $sender->getName());
                        }else{
 $sender->sendMessage("§cThat player is not online");
