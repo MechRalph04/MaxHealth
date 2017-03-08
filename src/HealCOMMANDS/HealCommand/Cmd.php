@@ -3,7 +3,6 @@ namespace HealCOMMANDS\HealCommand;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\utils\TextFormat as Color;
 use pocketmine\Player;
 class Cmd extends PluginBase{
      public function onEnable(){
@@ -11,7 +10,7 @@ class Cmd extends PluginBase{
      }
      public function onCommand(CommandSender $sender, Command $command, $labels, array $args){
           $cmd = strtolower($command);
-          if($cmd == "max"){
+          if($cmd == "mht"){
                if($sender->hasPermission("heal.cmd.max") && $sender instanceof Player) {
                     $sender->setHealth($sender->getMaxHealth());
                     $sender->sendMessage("§bYou have been healed!");
