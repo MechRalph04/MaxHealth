@@ -4,8 +4,9 @@ Plugin is finished! Download my plugin now!
 
 # How to Use
 
-Usage: /max
-Or do /max <Player Name>
+Usage: /mht
+
+Or do /mht <Player Name>
 
 # Installation
 
@@ -26,3 +27,5 @@ or do it in-game /makeplugin MaxHealth
 [Facebook](https://www.facebook.com/MCPENation20C) 
 
 [Forums](http:/mcpenation.forum.cool/)
+
+[Official Site](http:/pianosrvrnetwork.simplesite.com/)
