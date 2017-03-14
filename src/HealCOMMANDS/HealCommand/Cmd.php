@@ -3,6 +3,7 @@ namespace HealCOMMANDS\HealCommand;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
+use pocketmine\utils\TextFormat as Color;
 use pocketmine\Player;
 class Cmd extends PluginBase{
      public function onEnable(){
